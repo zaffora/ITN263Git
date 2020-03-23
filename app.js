@@ -142,6 +142,11 @@ class SurveyScreen extends Component {
           onPress={() => this.clearHandler.bind(this)}
 
         />
+            
+        <Button
+            title="Cancel Form"
+        />
+              
       </SafeAreaView>
     );
   }
@@ -169,6 +174,12 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     marginTop: 30,
     backgroundColor: '#C3FFBA'
+  },
+  
+  button: {
+    width: 50,
+    height: 50,
+    backgroundColor: 'red'
   },
 
   formFields: {
